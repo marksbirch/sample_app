@@ -4,6 +4,8 @@ gem 'rails', '3.0.9'
 
 gem 'rake', '0.8.7'
 
+gem 'gravatar_image_tag'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -13,12 +15,14 @@ gem 'nokogiri'
 
 group :development do
   gem 'rspec-rails'
+  gem 'annotate'
 end
 
 group :test do
   gem 'rspec'
   gem 'webrat'
   gem 'spork', '~> 0.9.0.rc'
+  gem 'factory_girl_rails', '1.0'
 end
 
 # Use unicorn as the web server
