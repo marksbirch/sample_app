@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #dff;
+  background: #040
 }
 
 header {
@@ -34,12 +34,12 @@ a {
 }
 
 a:hover {
-  color: #069;
+  color: #080;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #069;
+  color: #080;
 }
 
 /* Navigation */
@@ -87,7 +87,7 @@ a.signup_button {
   text-align: center;
   width: 190px;
   color: #fff;
-  background: #990000;
+  background: #008800;
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
@@ -129,7 +129,7 @@ td.sidebar {
   width: 30%;
   padding: 1em;
   vertical-align: top;
-  background: #9ff;
+  background: #8d8;
 }
 
 .profile img.gravatar {
